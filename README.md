@@ -19,57 +19,57 @@
 * 使用template.ParseFile模版文件解析
 * handler处理对应相应的一级路径
 
+## 目录
+
+![](http://img.blog.csdn.net/20171121213206564)
     
 ## 运行截图
-1. 用浏览器访问 ``http://localhost:8080``，显示网页静态网页
+**1. 用浏览器访问 ``http://localhost:8080``，显示网页静态网页**
   
 >  启动main.go
-![]()
+
+![](http://img.blog.csdn.net/20171121213304774)
   
   
 > 用浏览器访问 ``http://localhost:8080``
 出现以下简单网页。
 状态码200：正常。
 
-![]()
+![](http://img.blog.csdn.net/20171121213329641)
   
   
 > curl测试
 
-![]()
+![](http://img.blog.csdn.net/20171121213525434)
 
-2. 用浏览器访问 ``http://localhost:8080/fillin``，显示网页静态网页
-  
->  启动main.go
+**2. 用浏览器访问 ``http://localhost:8080/fillin``，显示网页静态网页**
 
-![]()
-  
-  
 > 用浏览器访问 ``http://localhost:8080/fillin``
 出现信息采集页面。可输入用户信息。
 状态码200：正常。
 
-![]()
+![](http://img.blog.csdn.net/20171121213547043)
   
-> 点击“ok”，进入表格输出页面，打印刚刚输入的用户信息。
+> 输入用户信息，点击“ok”，进入表格输出页面，打印刚刚输入的用户信息。
 
-![]()
+![](http://img.blog.csdn.net/20171121213718977)
+![](http://img.blog.csdn.net/20171121213731816)
 
 > curl测试
+![](http://img.blog.csdn.net/20171121213851854)
 
-![]()
 
-3. 用浏览器访问 ``http://localhost:8080/unknown``，显示网页静态网页
-  
+**3. 用浏览器访问 ``http://localhost:8080/unknown``，显示网页静态网页**
+
 > 用浏览器访问 ``http://localhost:8080/unknown``
 网页提示：``5xx : Unknown Page!``。
 
-![]()
+![](http://img.blog.csdn.net/20171121213910571)
   
   
 > curl测试
 
-![]()
+![](http://img.blog.csdn.net/20171121213927415)
 
 
 ## 
