@@ -1,0 +1,41 @@
+
+<html>
+  <head>
+    <title>cloudgo-io</title>
+    <meta http-equiv="Content-Type" content="text/html; 
+    charset=utf-8">
+  </head>
+  <body>
+    <br>
+    <div id="d2">
+    <form name="myform" action="#">
+      name:<input type="text" name="name">
+      age:<input type="text" name="age">
+      gender:<input type="text" name="gender">
+      <input type="button" id="but" value="ok";>
+    </form>
+    </div>
+    <div id="d1" class="b" style="display:none;">asdf</div>
+    </body>
+
+    <script>
+    function printForm() {
+      var name = document.myform.name.value;
+      var age = document.myform.age.value;
+      var gender = document.myform.gender.value;
+      var i = 1;
+      document.write('<table border="1" align="center" width="500">');
+      document.write('<td>' + 'name' + '</td>');
+      document.write('<td>' + name + '</td>');
+      document.write('</tr>');
+      document.write('<td>' + 'age' + '</td>');
+      document.write('<td>' + age + '</td>');
+      document.write('</tr>');
+      document.write('<td>' + 'gender' + '</td>');
+      document.write('<td>' + gender + '</td>');
+      document.write('</tr>');
+      document.write('</table>'); 
+    }
+    document.getElementById("but").onclick = printForm;
+    </script>
+</html>
