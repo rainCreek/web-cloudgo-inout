@@ -43,18 +43,18 @@
 **2. 用浏览器访问 ``http://localhost:8080/fillin``
 
 > 用浏览器访问 ``http://localhost:8080/fillin``
-出现信息采集页面。可输入用户信息。
-状态码200：正常。
+出现信息采集页面。一开始表格是空的。可输入用户信息。
 
-![](http://img.blog.csdn.net/20171121213547043)
+![](http://img.blog.csdn.net/20171123230004268)
   
-> 输入用户信息，点击“ok”，进入表格输出页面，打印刚刚输入的用户信息。
+> 输入用户信息，点击“ok”，上方表格打印刚刚输入的用户信息。
 
-![](http://img.blog.csdn.net/20171121213718977)
-![](http://img.blog.csdn.net/20171121213731816)
+![](http://img.blog.csdn.net/20171123230013699)
+![](http://img.blog.csdn.net/20171123230053862)
 
 > curl测试
-![](http://img.blog.csdn.net/20171121213851854)
+![](http://img.blog.csdn.net/20171123230137633)
+![](http://img.blog.csdn.net/20171123230147419)
 
 
 **3. 用浏览器访问 ``http://localhost:8080/unknown``
@@ -62,12 +62,12 @@
 > 用浏览器访问 ``http://localhost:8080/unknown``
 网页提示：``5xx : Not Implement!Unknown Page! ``。
 
-![](http://img.blog.csdn.net/20171123210252927)
+![](http://img.blog.csdn.net/20171123230229745)
   
   
 > curl测试
 
-![](http://img.blog.csdn.net/20171123210515254)
+![](http://img.blog.csdn.net/20171123230237387)
 
 
 
