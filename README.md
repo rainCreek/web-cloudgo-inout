@@ -18,6 +18,7 @@
 * 动态文件使用http.HandleFunc进行设置，静态文件使用http.FileServer
 * 使用template.ParseFile模版文件解析
 * handler处理对应相应的一级路径
+* form的action和method属性的设置(eg.<form action="/fillin" method="post">)
 
 
     
@@ -40,7 +41,7 @@
 
 ![](http://img.blog.csdn.net/20171123205714828)
 
-**2. 用浏览器访问 ``http://localhost:8080/fillin``
+**2. 用浏览器访问 ``http://localhost:8080/fillin``**
 
 > 用浏览器访问 ``http://localhost:8080/fillin``
 出现信息采集页面。一开始表格是空的。可输入用户信息。
@@ -53,11 +54,12 @@
 ![](http://img.blog.csdn.net/20171123230053862)
 
 > curl测试
+
 ![](http://img.blog.csdn.net/20171123230137633)
 ![](http://img.blog.csdn.net/20171123230147419)
 
 
-**3. 用浏览器访问 ``http://localhost:8080/unknown``
+**3. 用浏览器访问 ``http://localhost:8080/unknown``**
 
 > 用浏览器访问 ``http://localhost:8080/unknown``
 网页提示：``5xx : Not Implement!Unknown Page! ``。
