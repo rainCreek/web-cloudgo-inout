@@ -11,7 +11,7 @@
 ## 运行方法
 * 用浏览器访问 ``http://localhost:8080``，显示网页静态网页，支持简答js访问
 * 用浏览器访问 ``http://localhost:8080/fillin``，可填写个人信息，并打印输出相应表格
-* 用浏览器访问 ``http://localhost:8080/unknown``，返回 ``5xx : Unknown Page!``
+* 用浏览器访问 ``http://localhost:8080/unknown``，返回 ``5xx : Not Implement!Unknown Page! ``
 
 
 ## 实现要点
@@ -42,7 +42,7 @@
 
 ![](http://img.blog.csdn.net/20171123205714828)
 
-**2. 用浏览器访问 ``http://localhost:8080/fillin``，显示网页静态网页**
+**2. 用浏览器访问 ``http://localhost:8080/fillin``
 
 > 用浏览器访问 ``http://localhost:8080/fillin``
 出现信息采集页面。可输入用户信息。
@@ -59,12 +59,12 @@
 ![](http://img.blog.csdn.net/20171121213851854)
 
 
-**3. 用浏览器访问 ``http://localhost:8080/unknown``，显示网页静态网页**
+**3. 用浏览器访问 ``http://localhost:8080/unknown``
 
 > 用浏览器访问 ``http://localhost:8080/unknown``
-网页提示：``5xx : Unknown Page!``。
+网页提示：``5xx : Not Implement!Unknown Page! ``。
 
-![](http://img.blog.csdn.net/20171121213910571)
+![](http://img.blog.csdn.net/20171123210252927)
   
   
 > curl测试
