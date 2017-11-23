@@ -8,10 +8,6 @@
 3. 提交表单，并输出一个表格
 4. 对`` /unknown ``给出开发中的提示，返回码`` 5xx``
 
-## 运行方法
-* 用浏览器访问 ``http://localhost:8080``，支持简单js访问
-* 用浏览器访问 ``http://localhost:8080/fillin``，可填写个人信息，并打印输出相应表格
-* 用浏览器访问 ``http://localhost:8080/unknown``，返回 ``5xx : Not Implement!Unknown Page! ``
 
 
 ## 实现要点
@@ -19,6 +15,14 @@
 * 使用template.ParseFile模版文件解析
 * handler处理对应相应的一级路径
 * form的action和method属性的设置(eg. ``<form action="/fillin" method="post">``)
+
+
+## 运行方法
+* 用浏览器访问 ``http://localhost:8080``，支持简单js访问
+* 用浏览器访问 ``http://localhost:8080/fillin``，可填写个人信息，并打印输出相应表格
+* 用浏览器访问 ``http://localhost:8080/unknown``，返回 ``5xx : Not Implement!Unknown Page! ``
+
+
 
 ## 目录结构
 
