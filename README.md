@@ -20,7 +20,9 @@
 * handler处理对应相应的一级路径
 * form的action和method属性的设置(eg. ``<form action="/fillin" method="post">``)
 
+## 目录结构
 
+![](http://img.blog.csdn.net/20171123231827898）
     
 ## 运行截图
 **1. 用浏览器访问 ``http://localhost:8080``，支持简单js访问**
@@ -39,7 +41,9 @@
   
 > curl测试
 
-![](http://img.blog.csdn.net/20171123205714828)
+![](http://img.blog.csdn.net/20171123231827898)
+
+
 
 **2. 用浏览器访问 ``http://localhost:8080/fillin``**
 
