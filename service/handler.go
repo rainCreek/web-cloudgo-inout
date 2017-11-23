@@ -9,14 +9,14 @@ import (
 )
 
 func homeHandler(formatter *render.Render) http.HandlerFunc {
-
-	return func(w http.ResponseWriter, req *http.Request) {
-		formatter.HTML(w, http.StatusOK, "index", struct {
-			Student      string `json:"student"`
+  
+  return func(w http.ResponseWriter, req *http.Request) {
+    formatter.HTML(w, http.StatusOK, "index", struct {
+      Student      string `json:"student"`
       StudentID        string `json:"studentid"`
-			Title      string `json:"title"`
-		}{Student: "Rao Yuxi", StudentID: "15331262", Title: "cloudgo-inout"})
-	}
+      Title      string `json:"title"`
+    }{Student: "Rao Yuxi", StudentID: "15331262", Title: "cloudgo-inout"})
+  }
 }
 
 // when request URL path = "/unknown", return status code 5xx
