@@ -18,7 +18,7 @@
 * 动态文件使用http.HandleFunc进行设置，静态文件使用http.FileServer
 * 使用template.ParseFile模版文件解析
 * handler处理对应相应的一级路径
-* form的action和method属性的设置(eg.<form action="/fillin" method="post">)
+* form的action和method属性的设置(eg. ``<form action="/fillin" method="post">``)
 
 
     
