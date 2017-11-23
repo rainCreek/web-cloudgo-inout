@@ -44,7 +44,7 @@ func initRoutes(mx *mux.Router, formatter *render.Render) {
 
 
 	// receive form and print table
-	mx.HandleFunc("/fillin", fillinHandler(formatter)).Methods("GET")
+	mx.HandleFunc("/fillin", fillinHandler(formatter))
 
   // handle request URL path = "/unknown"
 	mx.HandleFunc("/unknown", unknownHandler(formatter)).Methods("GET")
